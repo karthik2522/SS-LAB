@@ -11,6 +11,17 @@ sudo apt-get install -f flex
 
 sudo apt-get install bison 
 
+
+Compilation & Execution in Linux:
+---------------------------------
+      For Compiling Lex file only:
+            lex hello.l
+            gcc lex.yy.c
+      For Compiling yacc file only:
+            lex hello.l
+            yacc -d hello.y
+            gcc lex.yy.c y.tab.c -ll
+            
 ## Windows
 
 Installing Softwares:
