@@ -18,8 +18,7 @@ s1
 %%
 main()
 {
-printf("Enter
-A String\n");
+printf("Enter A String\n");
 yyparse();
 }
 int yyerror()
