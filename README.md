@@ -1,7 +1,7 @@
 # 📔 SS-LAB
 
 
-## Linux
+## Linux 📦
 
 Installing of Packages
 ----------------------
@@ -22,7 +22,7 @@ Compilation & Execution in Linux:
             yacc -d hello.y
             gcc lex.yy.c y.tab.c -ll
             
-## Windows
+## Windows  📥
 
 Installing Softwares:
 ---------------------
@@ -50,7 +50,7 @@ Compilation & Execution of your Program:
             gcc lex.yy.c y.tab.c
         For Executing the Program
             a.exe
-Syllabus
+Syllabus  📚
 --------
       1. (a)Write a LEX program to recognize valid arithmetic expression. Identifiers 
             in the expression could be only integers and operators could be + and *.
